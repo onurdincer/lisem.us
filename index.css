@@ -1,28 +1,31 @@
-
-
-
 *
 {
     margin: 0;
 }
 body 
 {
-    background-color:#cedad7;
+    
+    background-color:#ffffff;
+    //background-color:#24292e;
+    //background-color:#cedad7;
     //background-color:  #3949ab;
     //background-color:  lightblue;
-    
 }
 header{    
+    min-width: 1354px;
+    background-color: #4caf50;
     font-size: 14px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 100%;
     height: 45px;
     color: rgba(255,255,255,0.75);
-    background-color: #24292e;
+    //background-color: #5f5f5f;
     //background-color: #8e2c43;
     -webkit-transition-duration:0.1s;
     z-index: 2;
     position: fixed;
+    //border-bottom:2px solid #64c37d;   
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
     
 }
 header:hover{    
@@ -36,7 +39,6 @@ header:hover{
     
 }
 #icon{
-    top: 50px;
     left: 123px;
     background-image: url("icon/abc.png");
 
@@ -60,64 +62,75 @@ header:hover{
 
 }
 #girisyap{
-    top: -45px;
+    top: 0px;
     right: -420px;
     width: 420px;
     height: 45px;
     z-index: 3;
     position: fixed;
     line-height: 45px;
-    background-color: #5b5373;
+    background-color: #4caf50;
     -webkit-border-radius:10px;
-    
-
-
+    line-height: 48px;
 }
 #txtgiris{
+    border:none;
+    color:#4b4f53;
+    background-color:  #ffffff;
+    padding:2px;
+    -webkit-border-radius:3px;
+    -webkit-transition-duration:0.2s;
+    font-family: Verdana;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
     margin-left: 10px;
     width: 150px;
     max-width: 150px;
-    border:1px solid #3949ab;
-    color:#1f3522;
-    background-color:  rgba(255,255,255,0.75);
-    padding:5px;
-    -webkit-border-radius:10px;
-    -webkit-transition-duration:0.2s;
     font-size:18px;
     
-    
-    font-family: Verdana;
 }
-#txtgiris:hover{
-    border:1px solid #3949ab;
-    color:#1f3522;
-    background-color:  rgba(255,255,255,0.75);
-    padding:10px;
-    -webkit-border-radius:10px;
-    -webkit-transition-duration:0.2s;
-    font-family: Verdana;
-}
-#btngiris {
-    margin-left: 10px;
+#txtgiris2{
+    border:1px solid #64c37d;
+    color:#4b4f53;
+    background-color:  #ffffff;
     padding:2px;
-    cursor: pointer;
-    
-    border:1px solid #ffffff;
-    font-size:18px;
-    color:white;
-    font-family: Verdana;
-    background-color: #1f3522;
     -webkit-border-radius:3px;
     -webkit-transition-duration:0.2s;
+    font-family: Verdana;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+    margin-left: 10px;
+    width: 150px;
+    max-width: 150px;
+    font-size:18px;
+    font-family: Verdana;
+}
+#btngiris {  
+    background-color: #2196f3; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+    -webkit-border-radius:3px;
 }
 #btngiris:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
     
 }
+
+
 #anasayfa{
+    padding-right: 5px;
+    padding-left: 5px;
+    -webkit-border-radius:3px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
     float: left;
     line-height: 45px;
     font-size: 30px;
-    color: rgba(255,255,255,0.75);
 }
 #anasayfa:hover{
 
@@ -128,37 +141,70 @@ header:hover{
     cursor: pointer;
 }
 #arama{
+    margin-top: 9px;
     margin-left: 20px;
     width: 300px;
     float: left;
     
-    line-height: 48px;
 }
 #txtarama{
-    
-    
-    border:1px solid #ffffff;
-    color:white;
-    background-color:  #4b4f53;
-    padding:2px;
-    -webkit-border-radius:3px;
+    vertical-align: center;
+    float: left;
+    border:none;
+    color:#4b4f53;
+    background-color:  #ffffff;
+
+    padding-left:8px; ;
+    padding-top:2px ;
+    padding-bottom:2px ;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
     -webkit-transition-duration:0.2s;
+    font-family: Verdana;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+
+
     font-size:18px;
     
-    font-family: Verdana;
 }
 #txtarama:hover{
-    border:1px solid #ffffff;
-    color:white;
-    background-color:  #1f3522;
-    padding:2px;
-    -webkit-border-radius:3px;
+    border:none;
     -webkit-transition-duration:0.2s;
     font-family: Verdana;
 }
+.btnarama {
+    background-image: url(arama.png);
+    float: left;
+    background-color: #2196f3; /* Green */
+    border: none;
+    color: white;
+    padding: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    width: 40px;
+    font-family: Verdana;
+    height: 26px;
+}
+.btnarama:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    
+}
 
+#daraltma{
+    margin-top: 8px;
+    height: 29px;
+    width: 565px;
+    float: left;
+    
 
-
+}
 
 header ul{
     float: left;
@@ -166,93 +212,46 @@ header ul{
     
 }
  header ul li{
-    
+     font-size: medium;
+     padding: 5px;
+    //background-color: #f4511e;
     margin-left: 10px;
     color: rgba(255,255,255,0.75);
     font-family: Verdana;
-    padding: 5px;
     //border-right:1px solid rebeccapurple;
     float: left;
-    line-height: 35px;
     position: relative;
     -webkit-transition-duration:0.1s;
+    -webkit-border-radius:3px;
 
 }
  header ul li:hover{
     color: white;
     font-family: Verdana;
-    padding: 5px;
     //border-right:1px solid rebeccapurple;
     float: left;
-    line-height: 35px;
     position: relative;
     -webkit-transition-duration:0.1s;
     cursor: pointer;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
 
 }
 #bosluk{
     float: left;
-    width: 100px;
-    height: 45px;
+    width: 55px;
+    height: 29px;
 }
-header3{
-    float: left;
-    width:100%;
-    height:auto;
-    text-align:center;
-    color:white;
-    font-family:'Arabic Typesetting';
-    background-color: #6b4fbb;
-    //background-color: #24292e;
-    border-bottom:1px solid #e14329;
-}
-    #lblbaslik {
-        float: left;
-        width:200px;
-        font-size:100px;
-        color: #e62117;
-        font-family:'Arabic Typesetting';
-        background-color:  #cedad7;
-        -webkit-border-radius:10px;
-        border:1px solid #ffffff;
-        padding-left: 100px;
-        padding-right: 100px;
-        -webkit-transition-duration:0.2s;
-    }
-    #lblbaslik:hover {
-        cursor: pointer;
-        font-size:100px;
-        color: white;
-        font-family:'Arabic Typesetting';
-        border:1px solid #ffffff;
-        -webkit-border-radius:30px;
-        -webkit-transition-duration:0.2s;
-        background-color:  #e62117;
-        border:1px solid #ffffff;
-    }
 
     #resim {
-        
         -webkit-border-radius:100px;
-        background-image: url("30445843.jpg");
+        background-image: url("3044584.jpg");
         width: 1024px;
         height: 266px;
-        
-
     }
-
-
-            .GirisVeKayit .Kayit h1 {
-                margin-left:20px;
-                margin-top:20px;
-                color:white;
-                font-family:'Arabic Typesetting';
-            }
-
 
 
 #BilgiYazi{
-    text-align:center;
+    text-align:left;
     float:left;
     width:100%;
     margin-top:20px;
@@ -268,21 +267,17 @@ header3{
     height: 266px;
     -webkit-transition-duration:0.2s;
     //opacity: 0.5;
+    //box-shadow: 10px 10px 5px #888888;   
+    //box-shadow: rgba(0, 0, 0, 0.56) -2px 1px 10px 0px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    margin-top: 40px;
 }
 #foto:hover{
+    margin-top: 40px;
     width: 1024px;
     height: 266px;
     -webkit-transition-duration:0.2s;
     //opacity: 1;
-}
-#baslik{
-    font-family: Verdana;
-    margin: 0 auto;
-    width: 1024px;
-    background-color: #24292e;
-    color: rgba(255,255,255,0.75);
-    text-align: center;
-
 }
 #altkisim{
     left: 163px;
@@ -296,70 +291,155 @@ header3{
 
 }
 #solkisim{
+    //border-top:2px solid #64c37d;
+    //border-right:2px solid #64c37d;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    //background-color: #f1f1f1;
     z-index: 2;
     position: fixed;
     color: white;
-    float: left;            
-    top: 45px;
+    float: left;           
     width: 163px;
-    height: 400px;
-    background-color: #5b5373;
+    height: 230px;
+    //background-color: #5f5f5f;
     //background-color: #8e2c43;
     //transition-duration: 0.3s;
-    border-top:1px solid rgba(255,255,255,0.75);
-    border-right:1px solid rgba(255,255,255,0.75);
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
     //overflow:hidden;
-    
+    //opacity: 0.95;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 ::-webkit-scrollbar {
-width: 6px;
+width: 10px;
 height: 12px;
 
 }
 ::-webkit-scrollbar-track {
-border: 0px solid rgba(255,255,255,0.75);
-border-radius: 10px;
+//border: 1px solid #4b4f53;
 }
 
 ::-webkit-scrollbar-thumb {
-background: rgba(255,255,255,0.75);  
-border-radius: 10px;
+background: #4b4f53;  
 }
 
 ::-webkit-scrollbar-thumb:hover {
-background: rgba(255,255,255,0.75);  
+//background: #4b4f53;  
 }
 #soldakiler{
-    float: right;
+    float: left;
+    top: 47px;
+    width: 163px;
     list-style: none;
+    height: 230px;    
 }
-#liler{
-    
-    color: rgba(255,255,255,0.75);
-    font-family: Verdana;
-    padding: 5px;
+.lileri{
+    background-color: #f1f1f1;
+    margin-top: 8px;
+    padding-left: 10px;
+    float: left;
+    text-align: left;
+    font-size: 20px;
+    top: 47px;
+    width: 143px;
+    color:  #434343;
+    font-family: 'Segoe UI';
     //border-right:1px solid rebeccapurple;
-    margin: 0 auto;
-    line-height: 35px;
     position: relative;
     -webkit-transition-duration:0.1s;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;    
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+    
 }
-
-
-
-#sagkisim{  
-    visibility:hidden;
+.lileri:hover{
+    background-color: #4caf50;
+    color: white;
+    //border-right:1px solid rebeccapurple;
+    position: relative;
+    -webkit-transition-duration:0.1s;
+    cursor:pointer;
+    
+    
+}
+#sagkisim{
+    top: 47px;
+    //border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 5px;
     z-index: 2;
     position: fixed;
+    width: 500px;
+    height: 316px;
+    //background-color: #24292e;
+    //transition-duration: 0.3s;
+    //border-bottom:2px solid #64c37d;
+    //border-left:2px solid #64c37d;
+    background-color: #64c37d;
+    box-shadow: -2px 2px 4px 0 rgba(0,0,0,0.16),-2px 2px 10px 0 rgba(0,0,0,0.12)!important;
+}
+#txt1{
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 300px;
+
+    
+    border:1px solid #64c37d;
+    color:#4b4f53;
+    background-color:  #ffffff;
+    padding:2px;
+    -webkit-border-radius:3px;
+    -webkit-transition-duration:0.2s;
+    font-size:18px;
+    font-family: Verdana;
+    //background-color:  rgba(255,255,255,0.75);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+
+}
+.txtkayit{    
+    border:1px solid #64c37d;
+    color:#4b4f53;
+    background-color:  #ffffff;
+    padding:2px;
+    -webkit-border-radius:3px;
+    -webkit-transition-duration:0.2s;
+    font-size:18px;
+    font-family: Verdana;
+    margin-top: 15px;
+    margin-left: 30px;
+    width: 300px;
+    //background-color:  rgba(255,255,255,0.75);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+}
+.txtkayit:hover{
+    border:1px solid #3949ab;
+    color:#1f3522;
+    -webkit-transition-duration:0.2s;
+    font-family: Verdana;
+}
+.btnkayit {
+    background-color: #2196f3; /* Green */
+    border: none;
     color: white;
-    left: 1187px;
-    float: right;        
-    top: 45px;
-    width: 162px;
-    height: 800px;
-    background-color: #24292e;
+    padding: 5px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+    -webkit-border-radius:3px;
 
 
+
+
+
+
+    margin-left: 235px;
+    width: 100px;
+    margin-top: 10px;
+    font-family: Verdana;
+}
+.btnkayit:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    
 }
